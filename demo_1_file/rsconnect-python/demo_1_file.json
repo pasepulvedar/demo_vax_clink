@@ -1,0 +1,12 @@
+{
+    "https://rconnect.merck.com:3939": {
+        "server_url": "https://rconnect.merck.com:3939",
+        "filename": "C:\\Users\\sepupaul\\OneDrive - Merck Sharp & Dohme, Corp\\Data\\Python\\demo_vax_clink\\demo_1_file",
+        "app_url": "https://rconnect.merck.com:3939/content/ea99949b-acf5-45d4-b2bc-35d7561ba75d/",
+        "app_id": "ea99949b-acf5-45d4-b2bc-35d7561ba75d",
+        "app_guid": "ea99949b-acf5-45d4-b2bc-35d7561ba75d",
+        "title": "demo_1_file",
+        "app_mode": "python-streamlit",
+        "app_store_version": 1
+    }
+}

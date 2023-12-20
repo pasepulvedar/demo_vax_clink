@@ -1,0 +1,12 @@
+{
+    "https://rconnect.merck.com:3939": {
+        "server_url": "https://rconnect.merck.com:3939",
+        "filename": "C:\\Users\\sepupaul\\OneDrive - Merck Sharp & Dohme, Corp\\Data\\Python\\streamlit_test",
+        "app_url": "https://rconnect.merck.com:3939/content/bfef1d96-9bea-49b4-8d63-4ad8cfef6138/",
+        "app_id": "bfef1d96-9bea-49b4-8d63-4ad8cfef6138",
+        "app_guid": "bfef1d96-9bea-49b4-8d63-4ad8cfef6138",
+        "title": "streamlit_test",
+        "app_mode": "python-streamlit",
+        "app_store_version": 1
+    }
+}

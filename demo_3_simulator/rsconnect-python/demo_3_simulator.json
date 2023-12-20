@@ -1,0 +1,12 @@
+{
+    "https://rconnect.merck.com:3939": {
+        "server_url": "https://rconnect.merck.com:3939",
+        "filename": "C:\\Users\\sepupaul\\OneDrive - Merck Sharp & Dohme, Corp\\Data\\Python\\demo_vax_clink\\demo_3_simulator",
+        "app_url": "https://rconnect.merck.com:3939/content/6a22c276-146a-4d84-98ca-9c8adb63149e/",
+        "app_id": 2057,
+        "app_guid": "6a22c276-146a-4d84-98ca-9c8adb63149e",
+        "title": "demo_3_simulator",
+        "app_mode": "python-streamlit",
+        "app_store_version": 1
+    }
+}

@@ -1,0 +1,335 @@
+Fecha Vacunación;Especialidad Prescribe;Region;id_region;Comuna;Sexo;Rango Etario;Dosis;Cantidad
+07-02-2023;Matrona;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;30-34;3ra;1
+23-04-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+25-03-2023;Urología;Metropolitana de Santiago;region_13;Providencia;Masculino;20-24;1ra;1
+19-04-2023;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;3ra;1
+30-08-2022;Médico Cirujano;Coquimbo;region_4;Ñuñoa;Femenino;25-29;1ra;1
+18-05-2023;Anatomía Patológica;Biobío;region_8;Buin;Femenino;25-29;1ra;1
+18-01-2023;Anestesiología;Maule;region_7;Providencia;Masculino;40-44;1ra;1
+26-12-2022;Medicina Intensiva;Antofagasta;region_2;Buin;Femenino;35-39;1ra;1
+06-05-2023;Medicina Familiar;Libertador General Bernardo O'Higgins;region_6;Ñuñoa;Femenino;25-29;1ra;1
+10-05-2023;Infectología;Maule;region_7;Buin;Femenino;30-34;1ra;1
+12-03-2022;Matrona;Tarapacá;region_1;Providencia;Masculino;35-39;1ra;1
+17-01-2022;Ginecología;Los Lagos;region_10;Buin;Femenino;20-24;1ra;1
+19-08-2022;Urología;Valparaíso;region_5;Ñuñoa;Femenino;20-24;1ra;1
+07-01-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;2da;1
+02-05-2023;Médico Cirujano;Metropolitana de Santiago;region_13;Providencia;Masculino;20-24;2da;1
+03-04-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+23-03-2023;Anestesiología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;2da;1
+17-05-2022;Medicina Intensiva;Coquimbo;region_4;Buin;Femenino;40-44;2da;1
+20-01-2022;Medicina Familiar;Biobío;region_8;Providencia;Masculino;30-34;3ra;1
+14-12-2022;Infectología;Maule;region_7;Buin;Femenino;25-29;3ra;1
+13-03-2023;Matrona;Antofagasta;region_2;Ñuñoa;Femenino;20-24;3ra;1
+08-08-2022;Ginecología;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;25-29;2da;1
+30-03-2022;Urología;Maule;region_7;Providencia;Masculino;25-29;1ra;1
+05-08-2022;Ginecología;Tarapacá;region_1;Buin;Femenino;25-29;3ra;1
+07-04-2023;Médico Cirujano;Los Lagos;region_10;Ñuñoa;Femenino;40-44;1ra;1
+27-02-2022;Anatomía Patológica;Valparaíso;region_5;Buin;Femenino;35-39;1ra;1
+12-11-2022;Anestesiología;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;1ra;1
+23-10-2022;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;30-34;1ra;1
+14-05-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;35-39;1ra;1
+16-03-2022;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;20-24;1ra;1
+22-04-2022;Matrona;Coquimbo;region_4;Providencia;Masculino;20-24;1ra;1
+18-01-2023;Ginecología;Biobío;region_8;Buin;Femenino;40-44;1ra;1
+02-09-2022;Urología;Maule;region_7;Ñuñoa;Femenino;20-24;1ra;1
+01-12-2022;Ginecología;Antofagasta;region_2;Buin;Femenino;25-29;2da;1
+08-03-2023;Médico Cirujano;Libertador General Bernardo O'Higgins;region_6;Providencia;Masculino;25-29;2da;1
+21-10-2022;Anatomía Patológica;Maule;region_7;Buin;Femenino;40-44;2da;1
+23-08-2022;Anestesiología;Tarapacá;region_1;Ñuñoa;Femenino;30-34;2da;1
+09-01-2022;Medicina Intensiva;Los Lagos;region_10;Buin;Femenino;25-29;2da;1
+16-09-2022;Medicina Familiar;Valparaíso;region_5;Providencia;Masculino;20-24;3ra;1
+07-01-2022;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;3ra;1
+28-04-2023;Matrona;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;3ra;1
+03-01-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+05-10-2022;Urología;Metropolitana de Santiago;region_13;Providencia;Masculino;40-44;1ra;1
+21-04-2022;Ginecología;Coquimbo;region_4;Buin;Femenino;35-39;3ra;1
+15-01-2022;Médico Cirujano;Biobío;region_8;Ñuñoa;Femenino;25-29;1ra;1
+15-04-2023;Anatomía Patológica;Maule;region_7;Buin;Femenino;30-34;1ra;1
+05-10-2022;Anestesiología;Antofagasta;region_2;Providencia;Masculino;35-39;1ra;1
+29-03-2022;Medicina Intensiva;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;20-24;1ra;1
+11-08-2022;Medicina Familiar;Maule;region_7;Ñuñoa;Femenino;20-24;1ra;1
+12-12-2022;Infectología;Tarapacá;region_1;Buin;Femenino;40-44;1ra;1
+02-04-2023;Matrona;Los Lagos;region_10;Providencia;Masculino;20-24;1ra;1
+07-02-2022;Ginecología;Valparaíso;region_5;Buin;Femenino;25-29;1ra;1
+10-03-2023;Urología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;1ra;1
+15-05-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;2da;1
+10-03-2023;Médico Cirujano;Metropolitana de Santiago;region_13;Providencia;Masculino;30-34;2da;1
+23-04-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+17-05-2022;Anestesiología;Coquimbo;region_4;Ñuñoa;Femenino;20-24;2da;1
+16-08-2022;Medicina Intensiva;Biobío;region_8;Buin;Femenino;25-29;2da;1
+03-03-2023;Medicina Familiar;Maule;region_7;Providencia;Masculino;25-29;3ra;1
+15-02-2023;Infectología;Antofagasta;region_2;Buin;Femenino;25-29;3ra;1
+08-04-2023;Matrona;Libertador General Bernardo O'Higgins;region_6;Ñuñoa;Femenino;40-44;3ra;1
+19-10-2022;Ginecología;Maule;region_7;Buin;Femenino;35-39;2da;1
+17-03-2022;Urología;Tarapacá;region_1;Providencia;Masculino;25-29;1ra;1
+04-08-2022;Ginecología;Los Lagos;region_10;Buin;Femenino;30-34;3ra;1
+10-01-2022;Médico Cirujano;Valparaíso;region_5;Ñuñoa;Femenino;35-39;1ra;1
+14-11-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;20-24;1ra;1
+27-04-2023;Anestesiología;Metropolitana de Santiago;region_13;Providencia;Masculino;20-24;1ra;1
+02-04-2022;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;1ra;1
+24-07-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;20-24;1ra;1
+21-05-2022;Infectología;Coquimbo;region_4;Buin;Femenino;25-29;1ra;1
+18-12-2022;Matrona;Biobío;region_8;Providencia;Masculino;25-29;1ra;1
+15-06-2022;Ginecología;Maule;region_7;Buin;Femenino;40-44;1ra;1
+01-04-2022;Urología;Antofagasta;region_2;Ñuñoa;Femenino;30-34;1ra;1
+02-12-2022;Ginecología;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;25-29;2da;1
+12-04-2022;Médico Cirujano;Maule;region_7;Providencia;Masculino;20-24;2da;1
+14-09-2022;Anatomía Patológica;Tarapacá;region_1;Buin;Femenino;25-29;2da;1
+15-11-2022;Anestesiología;Los Lagos;region_10;Ñuñoa;Femenino;25-29;2da;1
+21-10-2022;Medicina Intensiva;Valparaíso;region_5;Buin;Femenino;25-29;2da;1
+23-01-2023;Medicina Familiar;Metropolitana de Santiago;region_13;Providencia;Masculino;40-44;3ra;1
+17-02-2023;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;35-39;3ra;1
+21-03-2022;Matrona;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;3ra;1
+14-02-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;30-34;2da;1
+08-03-2022;Urología;Coquimbo;region_4;Providencia;Masculino;35-39;1ra;1
+21-01-2023;Ginecología;Biobío;region_8;Buin;Femenino;20-24;3ra;1
+25-05-2022;Médico Cirujano;Maule;region_7;Ñuñoa;Femenino;20-24;1ra;1
+26-05-2022;Anatomía Patológica;Antofagasta;region_2;Buin;Femenino;40-44;1ra;1
+10-11-2022;Anestesiología;Libertador General Bernardo O'Higgins;region_6;Providencia;Masculino;20-24;1ra;1
+17-03-2022;Medicina Intensiva;Maule;region_7;Buin;Femenino;25-29;1ra;1
+05-03-2022;Medicina Familiar;Tarapacá;region_1;Ñuñoa;Femenino;25-29;1ra;1
+08-12-2022;Infectología;Los Lagos;region_10;Buin;Femenino;40-44;1ra;1
+23-02-2022;Matrona;Valparaíso;region_5;Providencia;Masculino;30-34;1ra;1
+29-12-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;1ra;1
+02-08-2022;Urología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;20-24;1ra;1
+19-01-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+11-10-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;2da;1
+11-03-2023;Anatomía Patológica;Coquimbo;region_4;Buin;Femenino;25-29;2da;1
+17-02-2023;Anestesiología;Biobío;region_8;Ñuñoa;Femenino;40-44;2da;1
+11-02-2023;Medicina Intensiva;Maule;region_7;Buin;Femenino;35-39;2da;1
+12-02-2022;Medicina Familiar;Antofagasta;region_2;Providencia;Masculino;25-29;3ra;1
+22-11-2022;Infectología;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;30-34;3ra;1
+01-01-2023;Matrona;Maule;region_7;Ñuñoa;Femenino;35-39;3ra;1
+22-11-2022;Ginecología;Tarapacá;region_1;Buin;Femenino;20-24;2da;1
+09-04-2022;Urología;Los Lagos;region_10;Providencia;Masculino;20-24;1ra;1
+22-02-2022;Ginecología;Valparaíso;region_5;Buin;Femenino;40-44;3ra;1
+14-06-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;20-24;1ra;1
+02-10-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;1ra;1
+16-02-2023;Anestesiología;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;1ra;1
+14-10-2022;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;1ra;1
+21-08-2022;Medicina Familiar;Coquimbo;region_4;Ñuñoa;Femenino;30-34;1ra;1
+27-02-2022;Infectología;Biobío;region_8;Buin;Femenino;25-29;1ra;1
+12-02-2023;Matrona;Maule;region_7;Providencia;Masculino;20-24;1ra;1
+24-01-2022;Ginecología;Antofagasta;region_2;Buin;Femenino;25-29;1ra;1
+20-10-2022;Urología;Libertador General Bernardo O'Higgins;region_6;Ñuñoa;Femenino;25-29;1ra;1
+29-08-2022;Ginecología;Maule;region_7;Buin;Femenino;25-29;2da;1
+05-04-2023;Médico Cirujano;Tarapacá;region_1;Providencia;Masculino;40-44;2da;1
+21-03-2023;Anatomía Patológica;Los Lagos;region_10;Buin;Femenino;35-39;2da;1
+03-02-2022;Anestesiología;Valparaíso;region_5;Ñuñoa;Femenino;25-29;2da;1
+18-02-2023;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;30-34;2da;1
+05-03-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Providencia;Masculino;35-39;3ra;1
+07-11-2022;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;20-24;3ra;1
+15-03-2023;Matrona;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;20-24;3ra;1
+03-05-2023;Ginecología;Coquimbo;region_4;Buin;Femenino;40-44;2da;1
+13-04-2022;Urología;Biobío;region_8;Providencia;Masculino;20-24;1ra;1
+12-02-2023;Ginecología;Maule;region_7;Buin;Femenino;25-29;3ra;1
+19-04-2023;Médico Cirujano;Antofagasta;region_2;Ñuñoa;Femenino;25-29;1ra;1
+05-04-2023;Anatomía Patológica;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;40-44;1ra;1
+06-04-2023;Anestesiología;Maule;region_7;Providencia;Masculino;30-34;1ra;1
+14-09-2022;Medicina Intensiva;Tarapacá;region_1;Buin;Femenino;25-29;1ra;1
+25-09-2022;Medicina Familiar;Los Lagos;region_10;Ñuñoa;Femenino;20-24;1ra;1
+06-01-2022;Infectología;Valparaíso;region_5;Buin;Femenino;25-29;1ra;1
+22-03-2022;Matrona;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;1ra;1
+12-02-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;1ra;1
+06-07-2022;Urología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;40-44;1ra;1
+05-04-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;35-39;2da;1
+01-09-2022;Médico Cirujano;Coquimbo;region_4;Providencia;Masculino;25-29;2da;1
+18-03-2023;Anatomía Patológica;Biobío;region_8;Buin;Femenino;30-34;2da;1
+01-05-2023;Anestesiología;Maule;region_7;Ñuñoa;Femenino;35-39;2da;1
+18-04-2022;Medicina Intensiva;Antofagasta;region_2;Buin;Femenino;20-24;2da;1
+11-02-2022;Medicina Familiar;Libertador General Bernardo O'Higgins;region_6;Providencia;Masculino;20-24;3ra;1
+01-02-2022;Infectología;Maule;region_7;Buin;Femenino;40-44;3ra;1
+02-05-2022;Matrona;Tarapacá;region_1;Ñuñoa;Femenino;20-24;3ra;1
+21-05-2022;Ginecología;Los Lagos;region_10;Buin;Femenino;25-29;2da;1
+25-12-2022;Urología;Valparaíso;region_5;Providencia;Masculino;25-29;1ra;1
+28-05-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;3ra;1
+08-01-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;30-34;1ra;1
+26-10-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;1ra;1
+02-03-2023;Anestesiología;Metropolitana de Santiago;region_13;Providencia;Masculino;20-24;1ra;1
+29-09-2022;Medicina Intensiva;Coquimbo;region_4;Buin;Femenino;25-29;1ra;1
+08-03-2022;Medicina Familiar;Biobío;region_8;Ñuñoa;Femenino;25-29;1ra;1
+02-04-2023;Infectología;Maule;region_7;Buin;Femenino;25-29;1ra;1
+08-01-2023;Matrona;Antofagasta;region_2;Providencia;Masculino;40-44;1ra;1
+24-09-2022;Ginecología;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;35-39;1ra;1
+08-04-2022;Urología;Maule;region_7;Ñuñoa;Femenino;25-29;1ra;1
+04-04-2023;Ginecología;Tarapacá;region_1;Buin;Femenino;30-34;2da;1
+03-03-2022;Médico Cirujano;Los Lagos;region_10;Providencia;Masculino;35-39;2da;1
+25-02-2023;Anatomía Patológica;Valparaíso;region_5;Buin;Femenino;20-24;2da;1
+24-02-2023;Anestesiología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;20-24;2da;1
+08-02-2023;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;2da;1
+04-04-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Providencia;Masculino;20-24;3ra;1
+17-11-2022;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;3ra;1
+26-08-2022;Matrona;Coquimbo;region_4;Ñuñoa;Femenino;25-29;3ra;1
+26-05-2022;Ginecología;Biobío;region_8;Buin;Femenino;40-44;2da;1
+03-11-2022;Urología;Maule;region_7;Providencia;Masculino;30-34;1ra;1
+19-11-2022;Ginecología;Antofagasta;region_2;Buin;Femenino;25-29;3ra;1
+16-03-2023;Médico Cirujano;Libertador General Bernardo O'Higgins;region_6;Ñuñoa;Femenino;20-24;1ra;1
+28-03-2023;Anatomía Patológica;Maule;region_7;Buin;Femenino;25-29;1ra;1
+30-05-2022;Anestesiología;Tarapacá;region_1;Providencia;Masculino;25-29;1ra;1
+03-02-2023;Medicina Intensiva;Los Lagos;region_10;Buin;Femenino;25-29;1ra;1
+21-03-2022;Medicina Familiar;Valparaíso;region_5;Ñuñoa;Femenino;40-44;1ra;1
+25-06-2022;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;35-39;1ra;1
+05-01-2023;Matrona;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;1ra;1
+19-01-2023;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;30-34;1ra;1
+12-03-2023;Urología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;35-39;1ra;1
+17-07-2022;Ginecología;Coquimbo;region_4;Buin;Femenino;20-24;2da;1
+25-11-2022;Médico Cirujano;Biobío;region_8;Providencia;Masculino;20-24;2da;1
+16-03-2022;Anatomía Patológica;Maule;region_7;Buin;Femenino;40-44;2da;1
+09-05-2023;Anestesiología;Antofagasta;region_2;Ñuñoa;Femenino;20-24;2da;1
+24-01-2022;Medicina Intensiva;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;25-29;2da;1
+05-03-2023;Medicina Familiar;Maule;region_7;Providencia;Masculino;25-29;3ra;1
+23-12-2022;Infectología;Tarapacá;region_1;Buin;Femenino;40-44;3ra;1
+19-01-2023;Matrona;Los Lagos;region_10;Ñuñoa;Femenino;30-34;3ra;1
+12-05-2022;Ginecología;Valparaíso;region_5;Buin;Femenino;25-29;2da;1
+29-06-2022;Urología;Metropolitana de Santiago;region_13;Providencia;Masculino;20-24;1ra;1
+01-04-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;3ra;1
+15-03-2023;Médico Cirujano;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;1ra;1
+11-01-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;1ra;1
+04-09-2022;Anestesiología;Coquimbo;region_4;Providencia;Masculino;40-44;1ra;1
+12-11-2022;Medicina Intensiva;Biobío;region_8;Buin;Femenino;35-39;1ra;1
+15-03-2023;Medicina Familiar;Maule;region_7;Ñuñoa;Femenino;25-29;1ra;1
+14-07-2022;Infectología;Antofagasta;region_2;Buin;Femenino;30-34;1ra;1
+22-06-2022;Matrona;Libertador General Bernardo O'Higgins;region_6;Providencia;Masculino;35-39;1ra;1
+12-05-2022;Ginecología;Maule;region_7;Buin;Femenino;20-24;1ra;1
+22-02-2023;Urología;Tarapacá;region_1;Ñuñoa;Femenino;20-24;1ra;1
+19-02-2023;Ginecología;Los Lagos;region_10;Buin;Femenino;40-44;2da;1
+04-08-2022;Médico Cirujano;Valparaíso;region_5;Providencia;Masculino;20-24;2da;1
+21-01-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+10-01-2022;Anestesiología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;2da;1
+19-03-2023;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;2da;1
+10-09-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Providencia;Masculino;30-34;3ra;1
+30-06-2022;Infectología;Coquimbo;region_4;Buin;Femenino;25-29;3ra;1
+16-02-2023;Matrona;Biobío;region_8;Ñuñoa;Femenino;20-24;3ra;1
+21-05-2023;Ginecología;Maule;region_7;Buin;Femenino;25-29;2da;1
+16-10-2022;Urología;Antofagasta;region_2;Providencia;Masculino;25-29;1ra;1
+10-11-2022;Ginecología;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;25-29;3ra;1
+23-01-2023;Médico Cirujano;Maule;region_7;Ñuñoa;Femenino;40-44;1ra;1
+25-04-2022;Anatomía Patológica;Tarapacá;region_1;Buin;Femenino;35-39;1ra;1
+13-04-2022;Anestesiología;Los Lagos;region_10;Providencia;Masculino;25-29;1ra;1
+04-03-2022;Medicina Intensiva;Valparaíso;region_5;Buin;Femenino;30-34;1ra;1
+13-01-2023;Medicina Familiar;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;35-39;1ra;1
+15-11-2022;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;20-24;1ra;1
+28-01-2022;Matrona;Metropolitana de Santiago;region_13;Providencia;Masculino;20-24;1ra;1
+28-03-2023;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;1ra;1
+22-03-2022;Urología;Coquimbo;region_4;Ñuñoa;Femenino;20-24;1ra;1
+04-11-2022;Ginecología;Biobío;region_8;Buin;Femenino;25-29;2da;1
+17-01-2023;Médico Cirujano;Maule;region_7;Providencia;Masculino;25-29;2da;1
+31-03-2022;Anatomía Patológica;Antofagasta;region_2;Buin;Femenino;40-44;2da;1
+01-04-2023;Anestesiología;Libertador General Bernardo O'Higgins;region_6;Ñuñoa;Femenino;30-34;2da;1
+17-01-2022;Medicina Intensiva;Maule;region_7;Buin;Femenino;25-29;2da;1
+23-04-2023;Medicina Familiar;Tarapacá;region_1;Providencia;Masculino;20-24;3ra;1
+05-06-2022;Infectología;Los Lagos;region_10;Buin;Femenino;25-29;3ra;1
+13-05-2022;Matrona;Valparaíso;region_5;Ñuñoa;Femenino;25-29;3ra;1
+19-06-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+31-03-2023;Urología;Metropolitana de Santiago;region_13;Providencia;Masculino;40-44;1ra;1
+26-05-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;35-39;3ra;1
+21-04-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;1ra;1
+12-06-2022;Anatomía Patológica;Coquimbo;region_4;Buin;Femenino;30-34;1ra;1
+09-03-2023;Anestesiología;Biobío;region_8;Providencia;Masculino;35-39;1ra;1
+21-04-2023;Medicina Intensiva;Maule;region_7;Buin;Femenino;20-24;1ra;1
+17-10-2022;Medicina Familiar;Antofagasta;region_2;Ñuñoa;Femenino;20-24;1ra;1
+22-02-2023;Infectología;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;40-44;1ra;1
+20-05-2023;Matrona;Maule;region_7;Providencia;Masculino;20-24;1ra;1
+30-04-2023;Ginecología;Tarapacá;region_1;Buin;Femenino;25-29;1ra;1
+05-03-2022;Urología;Los Lagos;region_10;Ñuñoa;Femenino;25-29;1ra;1
+22-04-2022;Ginecología;Valparaíso;region_5;Buin;Femenino;40-44;2da;1
+01-11-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Providencia;Masculino;30-34;2da;1
+09-01-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+25-09-2022;Anestesiología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;20-24;2da;1
+13-12-2022;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+08-07-2022;Medicina Familiar;Coquimbo;region_4;Providencia;Masculino;25-29;3ra;1
+10-02-2023;Infectología;Biobío;region_8;Buin;Femenino;25-29;3ra;1
+10-07-2022;Matrona;Maule;region_7;Ñuñoa;Femenino;40-44;3ra;1
+28-03-2023;Ginecología;Antofagasta;region_2;Buin;Femenino;35-39;2da;1
+29-01-2022;Urología;Libertador General Bernardo O'Higgins;region_6;Providencia;Masculino;25-29;1ra;1
+05-07-2022;Ginecología;Maule;region_7;Buin;Femenino;30-34;3ra;1
+16-01-2022;Médico Cirujano;Tarapacá;region_1;Ñuñoa;Femenino;35-39;1ra;1
+05-02-2023;Anatomía Patológica;Los Lagos;region_10;Buin;Femenino;20-24;1ra;1
+10-06-2022;Anestesiología;Valparaíso;region_5;Providencia;Masculino;20-24;1ra;1
+29-03-2022;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;1ra;1
+20-11-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;20-24;1ra;1
+07-01-2022;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;1ra;1
+29-09-2022;Matrona;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;1ra;1
+24-11-2022;Ginecología;Coquimbo;region_4;Buin;Femenino;40-44;1ra;1
+14-04-2023;Urología;Biobío;region_8;Ñuñoa;Femenino;30-34;1ra;1
+27-09-2022;Ginecología;Maule;region_7;Buin;Femenino;25-29;2da;1
+07-02-2022;Médico Cirujano;Antofagasta;region_2;Providencia;Masculino;20-24;2da;1
+06-02-2023;Anatomía Patológica;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;25-29;2da;1
+11-03-2022;Anestesiología;Maule;region_7;Ñuñoa;Femenino;25-29;2da;1
+22-12-2022;Medicina Intensiva;Tarapacá;region_1;Buin;Femenino;25-29;2da;1
+07-04-2022;Medicina Familiar;Los Lagos;region_10;Providencia;Masculino;40-44;3ra;1
+14-11-2022;Infectología;Valparaíso;region_5;Buin;Femenino;35-39;3ra;1
+09-01-2022;Matrona;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;3ra;1
+13-12-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;30-34;2da;1
+22-02-2022;Urología;Metropolitana de Santiago;region_13;Providencia;Masculino;35-39;1ra;1
+28-03-2023;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;20-24;3ra;1
+11-06-2022;Médico Cirujano;Coquimbo;region_4;Ñuñoa;Femenino;20-24;1ra;1
+30-12-2022;Anatomía Patológica;Biobío;region_8;Buin;Femenino;40-44;1ra;1
+06-07-2022;Anestesiología;Maule;region_7;Providencia;Masculino;20-24;1ra;1
+13-02-2023;Medicina Intensiva;Antofagasta;region_2;Buin;Femenino;25-29;1ra;1
+25-11-2022;Medicina Familiar;Libertador General Bernardo O'Higgins;region_6;Ñuñoa;Femenino;25-29;1ra;1
+09-02-2023;Infectología;Maule;region_7;Buin;Femenino;40-44;1ra;1
+14-11-2022;Matrona;Tarapacá;region_1;Providencia;Masculino;30-34;1ra;1
+27-01-2023;Ginecología;Los Lagos;region_10;Buin;Femenino;25-29;1ra;1
+01-08-2022;Urología;Valparaíso;region_5;Ñuñoa;Femenino;20-24;1ra;1
+14-04-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+18-02-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;2da;1
+29-04-2023;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+09-08-2022;Anestesiología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;40-44;2da;1
+08-04-2022;Medicina Intensiva;Coquimbo;region_4;Buin;Femenino;35-39;2da;1
+14-12-2022;Medicina Familiar;Biobío;region_8;Providencia;Masculino;25-29;3ra;1
+19-04-2023;Infectología;Maule;region_7;Buin;Femenino;30-34;3ra;1
+20-05-2022;Matrona;Antofagasta;region_2;Ñuñoa;Femenino;35-39;3ra;1
+31-01-2023;Ginecología;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;20-24;2da;1
+08-02-2023;Urología;Maule;region_7;Providencia;Masculino;20-24;1ra;1
+21-02-2022;Ginecología;Tarapacá;region_1;Buin;Femenino;40-44;3ra;1
+26-08-2022;Médico Cirujano;Los Lagos;region_10;Ñuñoa;Femenino;20-24;1ra;1
+06-01-2022;Anatomía Patológica;Valparaíso;region_5;Buin;Femenino;25-29;1ra;1
+25-03-2023;Anestesiología;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;1ra;1
+20-04-2023;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;1ra;1
+06-06-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;30-34;1ra;1
+05-03-2023;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;1ra;1
+06-04-2023;Matrona;Coquimbo;region_4;Providencia;Masculino;20-24;1ra;1
+20-06-2022;Ginecología;Biobío;region_8;Buin;Femenino;25-29;1ra;1
+03-06-2022;Urología;Maule;region_7;Ñuñoa;Femenino;25-29;1ra;1
+11-10-2022;Ginecología;Antofagasta;region_2;Buin;Femenino;25-29;2da;1
+15-12-2022;Médico Cirujano;Libertador General Bernardo O'Higgins;region_6;Providencia;Masculino;40-44;2da;1
+02-02-2023;Anatomía Patológica;Maule;region_7;Buin;Femenino;35-39;2da;1
+30-09-2022;Anestesiología;Tarapacá;region_1;Ñuñoa;Femenino;25-29;2da;1
+07-07-2022;Medicina Intensiva;Los Lagos;region_10;Buin;Femenino;30-34;2da;1
+13-03-2022;Medicina Familiar;Valparaíso;region_5;Providencia;Masculino;35-39;3ra;1
+11-06-2022;Médico Cirujano;Coquimbo;region_4;Ñuñoa;Femenino;20-24;1ra;1
+30-12-2022;Anatomía Patológica;Biobío;region_8;Buin;Femenino;40-44;1ra;1
+06-07-2022;Anestesiología;Maule;region_7;Providencia;Masculino;20-24;1ra;1
+13-02-2023;Medicina Intensiva;Antofagasta;region_2;Buin;Femenino;25-29;1ra;1
+25-11-2022;Medicina Familiar;Libertador General Bernardo O'Higgins;region_6;Ñuñoa;Femenino;25-29;1ra;1
+09-02-2023;Infectología;Maule;region_7;Buin;Femenino;40-44;1ra;1
+14-11-2022;Matrona;Tarapacá;region_1;Providencia;Masculino;30-34;1ra;1
+27-01-2023;Ginecología;Los Lagos;region_10;Buin;Femenino;25-29;1ra;1
+01-08-2022;Urología;Valparaíso;region_5;Ñuñoa;Femenino;20-24;1ra;1
+14-04-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+18-02-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;2da;1
+29-04-2023;Anatomía Patológica;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;2da;1
+09-08-2022;Anestesiología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;40-44;2da;1
+08-04-2022;Medicina Intensiva;Coquimbo;region_4;Buin;Femenino;35-39;2da;1
+14-12-2022;Medicina Familiar;Biobío;region_8;Providencia;Masculino;25-29;3ra;1
+19-04-2023;Infectología;Maule;region_7;Buin;Femenino;30-34;3ra;1
+20-05-2022;Matrona;Antofagasta;region_2;Ñuñoa;Femenino;35-39;3ra;1
+31-01-2023;Ginecología;Libertador General Bernardo O'Higgins;region_6;Buin;Femenino;20-24;2da;1
+08-02-2023;Urología;Maule;region_7;Providencia;Masculino;20-24;1ra;1
+21-02-2022;Ginecología;Tarapacá;region_1;Buin;Femenino;40-44;3ra;1
+26-08-2022;Médico Cirujano;Los Lagos;region_10;Ñuñoa;Femenino;20-24;1ra;1
+06-01-2022;Anatomía Patológica;Valparaíso;region_5;Buin;Femenino;25-29;1ra;1
+25-03-2023;Anestesiología;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;1ra;1
+20-04-2023;Medicina Intensiva;Metropolitana de Santiago;region_13;Buin;Femenino;40-44;1ra;1
+06-06-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;30-34;1ra;1
+05-03-2023;Infectología;Metropolitana de Santiago;region_13;Buin;Femenino;25-29;1ra;1
+06-04-2023;Matrona;Coquimbo;region_4;Providencia;Masculino;20-24;1ra;1
+20-06-2022;Ginecología;Biobío;region_8;Buin;Femenino;25-29;1ra;1
+03-06-2022;Urología;Maule;region_7;Ñuñoa;Femenino;25-29;1ra;1
+11-10-2022;Ginecología;Antofagasta;region_2;Buin;Femenino;25-29;2da;1
+15-12-2022;Médico Cirujano;Libertador General Bernardo O'Higgins;region_6;Providencia;Masculino;40-44;2da;1
+02-02-2023;Anatomía Patológica;Maule;region_7;Buin;Femenino;35-39;2da;1
+30-09-2022;Anestesiología;Tarapacá;region_1;Ñuñoa;Femenino;25-29;2da;1
+07-07-2022;Medicina Intensiva;Los Lagos;region_10;Buin;Femenino;30-34;2da;1
+13-03-2022;Medicina Familiar;Valparaíso;region_5;Providencia;Masculino;35-39;3ra;1
