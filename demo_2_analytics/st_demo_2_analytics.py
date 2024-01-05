@@ -92,5 +92,6 @@ with tab2:
     _ = df.copy()
     _['period'] = _.fecha.dt.year*100+_.fecha.dt.month 
     _ = _.groupby('period').cantidad.sum().reset_index().rename(columns={'cantidad':'units'})
-    fig5 = px.line(_, x="period", y="units")
+    _['periodo'] = _.periodo.astype(str)
+    fig5 = px.line(_, x="period", y="units", color_discrete_sequence=fig_palette)
     st.plotly_chart(fig5 ,use_container_width=True)
