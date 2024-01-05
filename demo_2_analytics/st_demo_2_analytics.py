@@ -86,3 +86,11 @@ with tab1:
             st.plotly_chart(fig3 ,use_container_width=True)
         with col_24:
             st.plotly_chart(fig4 ,use_container_width=True)
+
+with tab2:
+    st.subheader('Purchase recommendation based on historical data')
+    _ = df.copy()
+    _['period'] = _.fecha.dt.year*100+_.fecha.dt.month 
+    _ = _.groupby('period').cantidad.sum().reset_index().rename(columns={'cantidad':'units'})
+    fig5 = px.line(_, x="period", y="units")
+    st.plotly_chart(fig5 ,use_container_width=True)
