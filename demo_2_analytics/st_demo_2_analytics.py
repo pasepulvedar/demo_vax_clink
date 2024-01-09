@@ -90,8 +90,20 @@ with tab1:
 with tab2:
     st.subheader('Purchase recommendation based on historical data')
     _ = df.copy()
-    _['period'] = _.fecha.dt.year*100+_.fecha.dt.month 
+    _['period'] = _.fecha.dt.strftime('%Y-%m') 
     _ = _.groupby('period').cantidad.sum().reset_index().rename(columns={'cantidad':'units'})
-    _['period'] = _.period.astype(str)
-    fig5 = px.line(_, x="period", y="units", color_discrete_sequence=fig_palette)
-    st.plotly_chart(fig5 ,use_container_width=True)
+    col_25, col_26 = st.columns(2)
+    with col_25:
+        fig5 = px.line(_, x="period", y="units", color_discrete_sequence=fig_palette)
+        fig5.update_traces(mode='markers+lines')
+        st.plotly_chart(fig5 ,use_container_width=True)
+    with col_26:
+        st.markdown("#")
+        st.markdown("#")
+        st.markdown('<div style="font-size:24px"> Based on our records, your historical data and projected demand we recommend you to buy for the current month:</div>', unsafe_allow_html=True)
+        st.markdown('<div style="text-align:center;font-size:50px;color:#00857C"> <b>18</b></div>', unsafe_allow_html=True)
+        st.markdown('<div style="text-align:center;font-size:24px"> units</div>', unsafe_allow_html=True)
+        st.markdown("#")
+        col_b1, col_b2, col_b3 = st.columns([1,2,1])
+        with col_b2:
+            st.link_button("Add it to your shopping cart! :shopping_trolley:", url='https://orders.msdcustomerlink.cl', type='primary', use_container_width=True)
