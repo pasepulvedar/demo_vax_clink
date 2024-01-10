@@ -38,9 +38,9 @@ st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
 
 fig_palette =  ['#00857C', '#6ECEB2', '#0C2340', '#BFED33', '#FFF063', '#69B8F7', '#688CE8', '#5450E4']
 
-st.header('Finantial Simulator & Adherence Tools')
+st.header('Financial Simulator & Adherence Tools')
 
-tab1, tab2, tab3 = st.tabs(['Finantial Simulator', "Adherence Tools", "Credit Notes"])
+tab1, tab2, tab3 = st.tabs(['Financial Simulator', "Adherence Tools", "Credit Notes"])
 
 ### FUNCIONES ###
 def df_clean(df):
