@@ -96,6 +96,7 @@ with tab2:
     with col_25:
         fig5 = px.line(_, x="period", y="units", color_discrete_sequence=fig_palette)
         fig5.update_traces(mode='markers+lines')
+        fig5.update_yaxes(rangemode="tozero")
         st.plotly_chart(fig5 ,use_container_width=True)
     with col_26:
         st.markdown("#")
