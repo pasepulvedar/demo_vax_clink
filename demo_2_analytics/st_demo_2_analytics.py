@@ -45,13 +45,13 @@ def df_clean(df):
 
 def df_charts(df, fig_palette):
     df1 = df.groupby(['sexo','edad']).cantidad.sum().reset_index()
-    fig1 = px.bar(df1, x="edad", y="cantidad", color='sexo', barmode='group',title='Vacunacion por sexo y rango etario', color_discrete_sequence=fig_palette)
+    fig1 = px.bar(df1, x="edad", y="cantidad", color='sexo', barmode='group',title='Vaccination by age and sex', color_discrete_sequence=fig_palette)
     df2 = df.groupby('comuna').cantidad.sum().reset_index()
-    fig2 = px.pie(df2, values='cantidad', names='comuna', title='Distribucion comunas vacunados', color_discrete_sequence=fig_palette)
+    fig2 = px.pie(df2, values='cantidad', names='comuna', title='Distribution of districts ', color_discrete_sequence=fig_palette)
     df3 = df.groupby('especialidad').cantidad.sum().reset_index().sort_values(by='cantidad')
-    fig3 = px.bar(df3, x='cantidad', y='especialidad', title='Especialidad prescriptores', color_discrete_sequence=fig_palette)
+    fig3 = px.bar(df3, x='cantidad', y='especialidad', title='Specialty prescribers', color_discrete_sequence=fig_palette)
     df4 = df.groupby('dosis').cantidad.sum().reset_index().sort_values(by='cantidad', ascending=False)
-    fig4 = px.bar(df4, x='dosis', y='cantidad', title='Vacunados por dosis', color_discrete_sequence=fig_palette)
+    fig4 = px.bar(df4, x='dosis', y='cantidad', title='Vaccinated by dose', color_discrete_sequence=fig_palette)
     return fig1, fig2, fig3, fig4
 
 def df_dosis(df):
