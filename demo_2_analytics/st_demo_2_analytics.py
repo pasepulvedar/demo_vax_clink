@@ -35,7 +35,7 @@ fig_palette =  ['#00857C', '#6ECEB2', '#0C2340', '#BFED33', '#FFF063', '#69B8F7'
 
 st.header('Analytics & Recommendations')
 
-tab1, tab2 = st.tabs(['Analytics', "Recommendations"])
+tab1, tab2, tab3 = st.tabs(['Your Analytics', 'Regional Analytics', "Recommendations"])
 
 ### FUNCIONES ###
 def df_clean(df):
@@ -50,7 +50,7 @@ def df_charts(df, fig_palette):
     fig2 = px.pie(df2, values='cantidad', names='comuna', title='Distribucion comunas vacunados', color_discrete_sequence=fig_palette)
     df3 = df.groupby('especialidad').cantidad.sum().reset_index().sort_values(by='cantidad')
     fig3 = px.bar(df3, x='cantidad', y='especialidad', title='Especialidad prescriptores', color_discrete_sequence=fig_palette)
-    df4 = df.groupby('dosis').cantidad.sum().reset_index().sort_values(by='cantidad')
+    df4 = df.groupby('dosis').cantidad.sum().reset_index().sort_values(by='cantidad', ascending=False)
     fig4 = px.bar(df4, x='dosis', y='cantidad', title='Vacunados por dosis', color_discrete_sequence=fig_palette)
     return fig1, fig2, fig3, fig4
 
@@ -79,7 +79,7 @@ with tab1:
         with col_21:
             st.plotly_chart(fig1 ,use_container_width=True)
         with col_22:
-            st.plotly_chart(fig2 ,use_container_width=True, theme=None)
+            st.plotly_chart(fig2 ,use_container_width=True)
     with st.container():
         col_23, col_24 = st.columns(2)
         with col_23:
@@ -88,6 +88,27 @@ with tab1:
             st.plotly_chart(fig4 ,use_container_width=True)
 
 with tab2:
+    st.subheader('Regional analytics for benchmarking and opportunities')
+
+    df = pd.read_csv('g9_data_region.csv',encoding='latin-1',sep=';')
+    df = df_clean(df)
+
+    fig1, fig2, fig3, fig4 = df_charts(df, fig_palette)
+
+    with st.container():
+        col_21, col_22 = st.columns([1,1])
+        with col_21:
+            st.plotly_chart(fig1 ,use_container_width=True)
+        with col_22:
+            st.plotly_chart(fig2 ,use_container_width=True)
+    with st.container():
+        col_23, col_24 = st.columns(2)
+        with col_23:
+            st.plotly_chart(fig3 ,use_container_width=True)
+        with col_24:
+            st.plotly_chart(fig4 ,use_container_width=True)
+
+with tab3:
     st.subheader('Purchase recommendation based on historical data')
     _ = df.copy()
     _['period'] = _.fecha.dt.strftime('%Y-%m') 

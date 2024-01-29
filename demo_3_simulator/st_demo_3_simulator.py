@@ -90,9 +90,9 @@ with tab1:
             dcto = st.text_input(label='Discount percentage on cost', value='3%', help='Enter the percentage discount that each dose has on the cost, if applicable')
             dcto = float(dcto.strip('%'))/100
         with col_32:
-            adh2 = st.text_input('Adherence goal 2nd dose', value='100%', help='Enter adherence target in second dose')
+            adh2 = st.text_input('Adherence goal 2nd dose', value='80%', help='Enter adherence target in second dose')
             adh2 = float(adh2.strip('%'))/100
-            adh3 = st.text_input('Adherence goal 3rd dose', value='100%', help='Enter adherence target in third dose')
+            adh3 = st.text_input('Adherence goal 3rd dose', value='70%', help='Enter adherence target in third dose')
             adh3 = float(adh3.strip('%'))/100
     with st.container():
         col_33, col_34 = st.columns(2)

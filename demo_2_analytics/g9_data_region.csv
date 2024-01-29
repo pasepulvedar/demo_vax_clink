@@ -1,0 +1,77 @@
+Fecha Vacunación;Especialidad Prescribe;Region;id_region;Comuna;Sexo;Rango Etario;Dosis;Cantidad
+02-09-2022;Urología;Maule;region_7;Ñuñoa;Femenino;30-34;1ra;41
+09-01-2022;Dermatología;Los Lagos;region_10;Buin;Femenino;25-29;2da;41
+21-04-2022;Ginecología;Coquimbo;region_4;Buin;Femenino;35-39;3ra;41
+12-12-2022;Infectología;Tarapacá;region_1;Buin;Femenino;30-34;1ra;41
+27-04-2023;Anestesiología;Metropolitana de Santiago;region_13;Providencia;Masculino;30-34;1ra;41
+02-04-2022;Dermatología;Metropolitana de Santiago;region_13;Buin;Femenino;30-34;1ra;41
+15-11-2022;Anestesiología;Los Lagos;region_10;Ñuñoa;Femenino;25-29;2da;41
+27-02-2022;Infectología;Biobío;region_8;Buin;Femenino;25-29;1ra;41
+25-02-2023;Anatomía Patológica;Valparaíso;region_5;Buin;Femenino;30-34;2da;41
+19-11-2022;Ginecología;Antofagasta;region_2;Buin;Femenino;25-29;3ra;41
+23-01-2023;Médico Cirujano;Maule;region_7;Ñuñoa;Femenino;30-34;1ra;41
+21-04-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;1ra;41
+05-03-2022;Urología;Los Lagos;region_10;Ñuñoa;Femenino;25-29;1ra;41
+06-05-2023;Urología;Libertador General Bernardo O'Higgins;region_6;Ñuñoa;Femenino;25-29;1ra;42
+15-05-2022;Ginecología;Metropolitana de Santiago;region_13;Buin;Femenino;30-34;2da;42
+02-05-2022;Matrona;Tarapacá;region_1;Ñuñoa;Femenino;30-34;3ra;42
+04-11-2022;Ginecología;Biobío;region_8;Buin;Femenino;25-29;2da;42
+01-11-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Providencia;Masculino;30-34;2da;42
+05-02-2023;Anatomía Patológica;Los Lagos;region_10;Las Condes;Femenino;30-34;1ra;42
+11-03-2022;Anestesiología;Maule;region_7;Ñuñoa;Femenino;25-29;2da;42
+13-02-2023;Dermatología;Antofagasta;region_2;Las Condes;Femenino;25-29;1ra;42
+23-03-2023;Anestesiología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;25-29;2da;43
+12-02-2022;Urología;Antofagasta;region_2;Providencia;Masculino;25-29;3ra;43
+14-07-2022;Infectología;Antofagasta;region_2;Las Condes;Femenino;30-34;1ra;43
+29-09-2022;Matrona;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;1ra;43
+29-04-2023;Anatomía Patológica;Metropolitana de Santiago;region_13;Las Condes;Femenino;25-29;2da;43
+10-05-2023;Infectología;Maule;region_7;Las Condes;Femenino;30-34;1ra;43
+13-03-2023;Matrona;Antofagasta;region_2;Ñuñoa;Femenino;20-24;3ra;44
+05-04-2023;Médico Cirujano;Tarapacá;region_1;Providencia;Masculino;30-34;2da;44
+21-04-2023;Dermatología;Maule;region_7;Las Condes;Femenino;20-24;1ra;44
+20-04-2023;Dermatología;Metropolitana de Santiago;region_13;Las Condes;Femenino;30-34;1ra;44
+08-03-2022;Urología;Coquimbo;region_4;Providencia;Masculino;35-39;1ra;45
+14-10-2022;Dermatología;Metropolitana de Santiago;region_13;Las Condes;Femenino;30-34;1ra;45
+21-03-2023;Anatomía Patológica;Los Lagos;region_10;Las Condes;Femenino;35-39;2da;45
+05-04-2023;Anatomía Patológica;Libertador General Bernardo O'Higgins;region_6;Las Condes;Femenino;30-34;1ra;45
+05-03-2023;Medicina Familiar;Maule;region_7;Providencia;Masculino;25-29;3ra;45
+05-07-2022;Ginecología;Maule;region_7;Las Condes;Femenino;30-34;3ra;45
+19-04-2023;Infectología;Maule;region_7;Las Condes;Femenino;30-34;3ra;45
+05-03-2023;Infectología;Metropolitana de Santiago;region_13;Las Condes;Femenino;25-29;1ra;45
+14-11-2022;Matrona;Tarapacá;region_1;Providencia;Masculino;30-34;1ra;45
+14-04-2022;Ginecología;Metropolitana de Santiago;region_13;Las Condes;Femenino;25-29;2da;45
+07-04-2023;Médico Cirujano;Los Lagos;region_10;Ñuñoa;Masculino;40-44;1ra;46
+18-12-2022;Matrona;Biobío;region_8;Providencia;Masculino;25-29;1ra;46
+12-03-2023;Urología;Metropolitana de Santiago;region_13;Ñuñoa;Femenino;35-39;1ra;46
+16-03-2022;Anatomía Patológica;Maule;region_7;Las Condes;Masculino;40-44;2da;46
+20-05-2022;Matrona;Antofagasta;region_2;Ñuñoa;Femenino;35-39;3ra;46
+30-12-2022;Anatomía Patológica;Biobío;region_8;Las Condes;Masculino;40-44;1ra;46
+29-03-2022;Dermatología;Libertador General Bernardo O'Higgins;region_6;Las Condes;Femenino;20-24;1ra;47
+05-03-2022;Medicina Familiar;Tarapacá;region_1;La Florida;Femenino;25-29;1ra;47
+21-08-2022;Medicina Familiar;Coquimbo;region_4;La Florida;Femenino;30-34;1ra;47
+08-03-2022;Urología;Biobío;region_8;La Florida;Femenino;25-29;1ra;47
+10-06-2022;Anestesiología;Valparaíso;region_5;Providencia;Masculino;20-24;1ra;47
+27-09-2022;Ginecología;Maule;region_7;Las Condes;Femenino;25-29;2da;47
+06-07-2022;Anestesiología;Maule;region_7;Providencia;Masculino;20-24;1ra;47
+07-01-2022;Infectología;Metropolitana de Santiago;region_13;Las Condes;Femenino;25-29;3ra;48
+03-03-2023;Medicina Familiar;Maule;region_7;Providencia;Masculino;25-29;3ra;48
+02-03-2023;Anestesiología;Metropolitana de Santiago;region_13;Providencia;Masculino;20-24;1ra;48
+26-05-2022;Ginecología;Biobío;region_8;Las Condes;Femenino;40-44;2da;48
+19-01-2023;Ginecología;Metropolitana de Santiago;region_13;Las Condes;Femenino;30-34;1ra;48
+10-09-2022;Medicina Familiar;Metropolitana de Santiago;region_13;Providencia;Masculino;30-34;3ra;48
+09-01-2022;Matrona;Metropolitana de Santiago;region_13;La Florida;Femenino;25-29;3ra;48
+26-08-2022;Médico Cirujano;Los Lagos;region_10;La Florida;Femenino;20-24;1ra;48
+20-05-2022;Matrona;Antofagasta;region_2;La Florida;Femenino;35-39;3ra;48
+30-03-2022;Urología;Maule;region_7;Providencia;Masculino;25-29;1ra;49
+16-08-2022;Dermatología;Biobío;region_8;Las Condes;Femenino;25-29;2da;49
+25-05-2022;Médico Cirujano;Maule;region_7;La Florida;Femenino;20-24;1ra;49
+11-10-2022;Médico Cirujano;Metropolitana de Santiago;region_13;Providencia;Masculino;25-29;2da;49
+08-02-2023;Dermatología;Metropolitana de Santiago;region_13;Las Condes;Femenino;40-44;2da;49
+11-01-2022;Anatomía Patológica;Metropolitana de Santiago;region_13;Las Condes;Femenino;25-29;1ra;49
+03-01-2022;Ginecología;Metropolitana de Santiago;region_13;Las Condes;Femenino;25-29;2da;50
+15-06-2022;Ginecología;Maule;region_7;Las Condes;Femenino;40-44;1ra;50
+09-04-2022;Urología;Los Lagos;region_10;Providencia;Masculino;20-24;1ra;50
+12-05-2022;Ginecología;Valparaíso;region_5;Las Condes;Femenino;25-29;2da;50
+13-01-2023;Urología;Metropolitana de Santiago;region_13;La Florida;Femenino;35-39;1ra;50
+22-02-2023;Infectología;Libertador General Bernardo O'Higgins;region_6;Las Condes;Femenino;40-44;1ra;50
+26-08-2022;Médico Cirujano;Los Lagos;region_10;La Florida;Femenino;20-24;1ra;50
