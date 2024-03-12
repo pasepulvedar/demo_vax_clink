@@ -35,7 +35,9 @@ fig_palette =  ['#00857C', '#6ECEB2', '#0C2340', '#BFED33', '#FFF063', '#69B8F7'
 
 st.header('Analytics & Recommendations')
 
-tab1, tab2, tab3 = st.tabs(['Your Analytics', 'Regional Analytics', "Recommendations"])
+# tab1, tab2, tab3 = st.tabs(['Your Analytics', 'Regional Analytics', "Recommendations"])
+tab1 = st.tabs(['Analytics'])
+
 
 ### FUNCIONES ###
 def df_clean(df):
@@ -87,45 +89,45 @@ with tab1:
         with col_24:
             st.plotly_chart(fig4 ,use_container_width=True)
 
-with tab2:
-    st.subheader('Regional analytics for benchmarking and opportunities')
+# with tab2:
+#     st.subheader('Regional analytics for benchmarking and opportunities')
 
-    df = pd.read_csv('g9_data_region.csv',encoding='latin-1',sep=';')
-    df = df_clean(df)
+#     df = pd.read_csv('g9_data_region.csv',encoding='latin-1',sep=';')
+#     df = df_clean(df)
 
-    fig1, fig2, fig3, fig4 = df_charts(df, fig_palette)
+#     fig1, fig2, fig3, fig4 = df_charts(df, fig_palette)
 
-    with st.container():
-        col_21, col_22 = st.columns([1,1])
-        with col_21:
-            st.plotly_chart(fig1 ,use_container_width=True)
-        with col_22:
-            st.plotly_chart(fig2 ,use_container_width=True)
-    with st.container():
-        col_23, col_24 = st.columns(2)
-        with col_23:
-            st.plotly_chart(fig3 ,use_container_width=True)
-        with col_24:
-            st.plotly_chart(fig4 ,use_container_width=True)
+#     with st.container():
+#         col_21, col_22 = st.columns([1,1])
+#         with col_21:
+#             st.plotly_chart(fig1 ,use_container_width=True)
+#         with col_22:
+#             st.plotly_chart(fig2 ,use_container_width=True)
+#     with st.container():
+#         col_23, col_24 = st.columns(2)
+#         with col_23:
+#             st.plotly_chart(fig3 ,use_container_width=True)
+#         with col_24:
+#             st.plotly_chart(fig4 ,use_container_width=True)
 
-with tab3:
-    st.subheader('Purchase recommendation based on historical data')
-    _ = df.copy()
-    _['period'] = _.fecha.dt.strftime('%Y-%m') 
-    _ = _.groupby('period').cantidad.sum().reset_index().rename(columns={'cantidad':'units'})
-    col_25, col_26 = st.columns(2)
-    with col_25:
-        fig5 = px.line(_, x="period", y="units", color_discrete_sequence=fig_palette)
-        fig5.update_traces(mode='markers+lines')
-        fig5.update_yaxes(rangemode="tozero")
-        st.plotly_chart(fig5 ,use_container_width=True)
-    with col_26:
-        st.markdown("#")
-        st.markdown("#")
-        st.markdown('<div style="font-size:24px"> Based on our records, your historical data and projected demand we recommend you to buy for the current month:</div>', unsafe_allow_html=True)
-        st.markdown('<div style="text-align:center;font-size:50px;color:#00857C"> <b>18</b></div>', unsafe_allow_html=True)
-        st.markdown('<div style="text-align:center;font-size:24px"> units</div>', unsafe_allow_html=True)
-        st.markdown("#")
-        col_b1, col_b2, col_b3 = st.columns([1,2,1])
-        with col_b2:
-            st.link_button("Add it to your shopping cart! :shopping_trolley:", url='https://orders.msdcustomerlink.cl', type='primary', use_container_width=True)
+# with tab3:
+#     st.subheader('Purchase recommendation based on historical data')
+#     _ = df.copy()
+#     _['period'] = _.fecha.dt.strftime('%Y-%m') 
+#     _ = _.groupby('period').cantidad.sum().reset_index().rename(columns={'cantidad':'units'})
+#     col_25, col_26 = st.columns(2)
+#     with col_25:
+#         fig5 = px.line(_, x="period", y="units", color_discrete_sequence=fig_palette)
+#         fig5.update_traces(mode='markers+lines')
+#         fig5.update_yaxes(rangemode="tozero")
+#         st.plotly_chart(fig5 ,use_container_width=True)
+#     with col_26:
+#         st.markdown("#")
+#         st.markdown("#")
+#         st.markdown('<div style="font-size:24px"> Based on our records, your historical data and projected demand we recommend you to buy for the current month:</div>', unsafe_allow_html=True)
+#         st.markdown('<div style="text-align:center;font-size:50px;color:#00857C"> <b>18</b></div>', unsafe_allow_html=True)
+#         st.markdown('<div style="text-align:center;font-size:24px"> units</div>', unsafe_allow_html=True)
+#         st.markdown("#")
+#         col_b1, col_b2, col_b3 = st.columns([1,2,1])
+#         with col_b2:
+#             st.link_button("Add it to your shopping cart! :shopping_trolley:", url='https://orders.msdcustomerlink.cl', type='primary', use_container_width=True)

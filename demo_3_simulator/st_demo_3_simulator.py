@@ -40,7 +40,8 @@ fig_palette =  ['#00857C', '#6ECEB2', '#0C2340', '#BFED33', '#FFF063', '#69B8F7'
 
 st.header('Financial Simulator & Adherence Tools')
 
-tab1, tab2, tab3 = st.tabs(['Financial Simulator', "Adherence Tools", "Credit Notes"])
+#tab1, tab2, tab3 = st.tabs(['Financial Simulator', "Adherence Tools", "Credit Notes"])
+tab1, tab2 = st.tabs(['Financial Simulator', "Adherence Tools"])
 
 ### FUNCIONES ###
 def df_clean(df):
@@ -157,60 +158,60 @@ with tab1:
         st.write("---")
 
 with tab2:
-    col1, col2 = st.columns(2, gap='large')
-    with col1:
+    # col1, col2 = st.columns(2, gap='large')
+    # with col1:
         ### SEGUIMIENTO ###
-        st.subheader('Tracking - Detail of next doses')
-        
-        list_periodos = (df.fecha.apply(lambda x: x+relativedelta(months=2)).dt.strftime('%Y%m')).unique()
-        list_periodos[::-1].sort()
-        periodo = st.selectbox('Choose period to consult ',list_periodos)
-        periodo_dt = datetime.date(int(periodo[:4]),int(periodo[4:]),1)
-        # max periodo + 2 meses
-        col12, col13 = st.columns(2)
-        with col12:
-            df_seg2 = df[(df.dosis=='1ra')&(df.fecha>=str(periodo_dt-relativedelta(months=2)))&(df.fecha<str(periodo_dt-relativedelta(months=1)))]
-            st.metric(label="2nd dose", value=len(df_seg2))
-            st.write(df_seg2)
-        with col13:
-            df_seg3 = df[(df.dosis=='2da')&(df.fecha>=str(periodo_dt-relativedelta(months=4)))&(df.fecha<str(periodo_dt-relativedelta(months=3)))]
-            st.metric(label="3rd dose", value=len(df_seg3))
-            st.write(df_seg3)
-    with col2:
-        ### SEGUIMIENTO ###
-        st.subheader('Scheduling QR')
-        st.write('Make this QR available to your patients so they can schedule their next dose!')
-        left_co, cent_co,last_co = st.columns(3)
-        with cent_co:
-            st.image('qr.png')       
+    st.subheader('Tracking - Detail of next doses')
+    
+    list_periodos = (df.fecha.apply(lambda x: x+relativedelta(months=2)).dt.strftime('%Y%m')).unique()
+    list_periodos[::-1].sort()
+    periodo = st.selectbox('Choose period to consult ',list_periodos)
+    periodo_dt = datetime.date(int(periodo[:4]),int(periodo[4:]),1)
+    # max periodo + 2 meses
+    col12, col13 = st.columns(2)
+    with col12:
+        df_seg2 = df[(df.dosis=='1ra')&(df.fecha>=str(periodo_dt-relativedelta(months=2)))&(df.fecha<str(periodo_dt-relativedelta(months=1)))]
+        st.metric(label="2nd dose", value=len(df_seg2))
+        st.write(df_seg2)
+    with col13:
+        df_seg3 = df[(df.dosis=='2da')&(df.fecha>=str(periodo_dt-relativedelta(months=4)))&(df.fecha<str(periodo_dt-relativedelta(months=3)))]
+        st.metric(label="3rd dose", value=len(df_seg3))
+        st.write(df_seg3)
+    # with col2:
+    #     ### SEGUIMIENTO ###
+    #     st.subheader('Scheduling QR')
+    #     st.write('Make this QR available to your patients so they can schedule their next dose!')
+    #     left_co, cent_co,last_co = st.columns(3)
+    #     with cent_co:
+    #         st.image('qr.png')       
 
-with tab3:
-    col3, col4 = st.columns(2, gap='large')
-    with col3:
-        _ = df.copy()
-        _['period'] = _.fecha.dt.strftime('%Y-%m') 
-        _ = _.groupby('period').cantidad.sum().reset_index().rename(columns={'cantidad':'units'})
-        _['sellin'] = _.units*89550
-        _['d4d'] = (_.sellin*3/100).astype(int)
-        _['rebate'] = (_.sellin*5/100).astype(int)
-        _['total_cn'] = _.d4d+_.rebate
-        _ = _.sort_values(by='period', ascending=False)
-        del _['units']
-        cn = _.sort_values(by='period').iloc[-1].total_cn
-        cn = '$ '+'{:,}'.format(cn)   
-        _ = _.style.apply(lambda x: ['background-color: #E2F5F0' if (i == x.size-1 or i==0) else '' for i in range(x.size)], axis=1)
-        st.dataframe(_, hide_index=True, 
-                    column_config={
-                        'period': 'Period',
-                        'sellin': st.column_config.NumberColumn('Sell in',format="$ %d"),
-                        'd4d': st.column_config.NumberColumn('Discount for data',format="$ %d"),
-                        'rebate': st.column_config.NumberColumn('Rebate',format="$ %d"),
-                        'total_cn': st.column_config.NumberColumn('Total credit notes',format="$ %d")
-                        }, use_container_width=True)
-    with col4:
-        st.markdown("#")
-        st.markdown("#")
-        st.markdown('<div style="text-align:center;font-size:24px"> This month you are going to receive:</div>', unsafe_allow_html=True)
-        st.markdown(f'<div style="text-align:center;font-size:50px;color:#00857C"> <b>{cn}</b></div>', unsafe_allow_html=True)
-        st.markdown('<div style="text-align:center;font-size:24px"> in credit notes for discounts.</div>', unsafe_allow_html=True)
-        st.markdown("#")
+# with tab3:
+#     col3, col4 = st.columns(2, gap='large')
+#     with col3:
+#         _ = df.copy()
+#         _['period'] = _.fecha.dt.strftime('%Y-%m') 
+#         _ = _.groupby('period').cantidad.sum().reset_index().rename(columns={'cantidad':'units'})
+#         _['sellin'] = _.units*89550
+#         _['d4d'] = (_.sellin*3/100).astype(int)
+#         _['rebate'] = (_.sellin*5/100).astype(int)
+#         _['total_cn'] = _.d4d+_.rebate
+#         _ = _.sort_values(by='period', ascending=False)
+#         del _['units']
+#         cn = _.sort_values(by='period').iloc[-1].total_cn
+#         cn = '$ '+'{:,}'.format(cn)   
+#         _ = _.style.apply(lambda x: ['background-color: #E2F5F0' if (i == x.size-1 or i==0) else '' for i in range(x.size)], axis=1)
+#         st.dataframe(_, hide_index=True, 
+#                     column_config={
+#                         'period': 'Period',
+#                         'sellin': st.column_config.NumberColumn('Sell in',format="$ %d"),
+#                         'd4d': st.column_config.NumberColumn('Discount for data',format="$ %d"),
+#                         'rebate': st.column_config.NumberColumn('Rebate',format="$ %d"),
+#                         'total_cn': st.column_config.NumberColumn('Total credit notes',format="$ %d")
+#                         }, use_container_width=True)
+#     with col4:
+#         st.markdown("#")
+#         st.markdown("#")
+#         st.markdown('<div style="text-align:center;font-size:24px"> This month you are going to receive:</div>', unsafe_allow_html=True)
+#         st.markdown(f'<div style="text-align:center;font-size:50px;color:#00857C"> <b>{cn}</b></div>', unsafe_allow_html=True)
+#         st.markdown('<div style="text-align:center;font-size:24px"> in credit notes for discounts.</div>', unsafe_allow_html=True)
+#         st.markdown("#")
