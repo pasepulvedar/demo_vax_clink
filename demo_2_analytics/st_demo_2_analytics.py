@@ -33,10 +33,11 @@ st.markdown(hide_decoration_bar_style, unsafe_allow_html=True)
 
 fig_palette =  ['#00857C', '#6ECEB2', '#0C2340', '#BFED33', '#FFF063', '#69B8F7', '#688CE8', '#5450E4']
 
-st.header('Analytics & Recommendations')
+# st.header('Analytics & Recommendations')
+st.header('Analytics')
 
 # tab1, tab2, tab3 = st.tabs(['Your Analytics', 'Regional Analytics', "Recommendations"])
-tab1 = st.tabs(['Analytics'])
+# tab1 = st.tabs(['Analytics'])
 
 
 ### FUNCIONES ###
@@ -68,26 +69,26 @@ def df_dosis(df):
 
 ### ANALYTICS ###
 
-with tab1:
-    st.subheader('Your personalized analytics with your own data')
+# with tab1:
+st.subheader('Your personalized analytics with your own data')
 
-    df = pd.read_csv('g9_data_example.csv',encoding='latin-1',sep=';')
-    df = df_clean(df)
+df = pd.read_csv('g9_data_example.csv',encoding='latin-1',sep=';')
+df = df_clean(df)
 
-    fig1, fig2, fig3, fig4 = df_charts(df, fig_palette)
+fig1, fig2, fig3, fig4 = df_charts(df, fig_palette)
 
-    with st.container():
-        col_21, col_22 = st.columns([1,1])
-        with col_21:
-            st.plotly_chart(fig1 ,use_container_width=True)
-        with col_22:
-            st.plotly_chart(fig2 ,use_container_width=True)
-    with st.container():
-        col_23, col_24 = st.columns(2)
-        with col_23:
-            st.plotly_chart(fig3 ,use_container_width=True)
-        with col_24:
-            st.plotly_chart(fig4 ,use_container_width=True)
+with st.container():
+    col_21, col_22 = st.columns([1,1])
+    with col_21:
+        st.plotly_chart(fig1 ,use_container_width=True)
+    with col_22:
+        st.plotly_chart(fig2 ,use_container_width=True)
+with st.container():
+    col_23, col_24 = st.columns(2)
+    with col_23:
+        st.plotly_chart(fig3 ,use_container_width=True)
+    with col_24:
+        st.plotly_chart(fig4 ,use_container_width=True)
 
 # with tab2:
 #     st.subheader('Regional analytics for benchmarking and opportunities')
